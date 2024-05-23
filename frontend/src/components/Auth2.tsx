@@ -4,6 +4,9 @@ import React from "react";
 import axios from 'axios';
 import { useState } from 'react';
 import { BACKEND_URL } from '../config';
+import Images from '../Pics/Images.png'
+import Apple from '../Pics/Apple.png'
+import Google from '../Pics/Google.png'
 
 export const Auth2 = () => {
 
@@ -29,7 +32,7 @@ export const Auth2 = () => {
 
         
         <div className="w-3/7 h-3/7  flex flex-col items-center bg-white my-4 border border-solid border-gray-300 ">
-            <img src="/Pics/Images.png" alt="instagram" className="w-2/4 my-5" />
+            <img src={Images} alt="instagram" className="w-2/4 my-5" />
             {/* <h1 className="text-4xl font-bold text-center mb-6 font-logo my-10">Instagram</h1> */}
             <input value={postInputs.username}
               onChange={(e) => setPostInputs({ ...postInputs, username: e.target.value })}
@@ -55,10 +58,10 @@ export const Auth2 = () => {
             Get the app
             <div className="grid grid-flow-col justify-center">
                 <div className="flex h-8 m-3">
-                    <img src="/Pics/Apple.png" alt="" />
+                    <img src={Apple} alt="" />
                 </div>
                 <div className="flex h-10 m-3">
-                    <img src="/Pics/Google.png" alt="" />
+                    <img src={Google} alt="" />
                 </div>
             </div>
         </div>
