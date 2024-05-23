@@ -50,7 +50,7 @@ const Auth = () => {
             type="submit"
             className="w-full bg-blue-500 text-white py-2 rounded-lg font-semibold hover:bg-blue-600 focus:outline-none"
           >
-            Log In
+            Log I
           </button>
         </form>
         <div className="mt-4 text-center">

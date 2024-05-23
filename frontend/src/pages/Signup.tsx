@@ -1,8 +1,10 @@
-import Auth from "../components/Auth"
+
+import { Auth2 } from "../components/Auth2"
+
 
 export const Signup=()=>{
     return <div>
-        <Auth></Auth>
+        <Auth2></Auth2>
     </div>
 
 }
