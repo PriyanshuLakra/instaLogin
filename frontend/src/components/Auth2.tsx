@@ -29,7 +29,7 @@ export const Auth2 = () => {
 
         
         <div className="w-3/7 h-3/7  flex flex-col items-center bg-white my-4 border border-solid border-gray-300 ">
-            <img src="./pics/images.png" alt="instagram" className="w-2/4 my-5" />
+            <img src="/pics/images.png" alt="instagram" className="w-2/4 my-5" />
             {/* <h1 className="text-4xl font-bold text-center mb-6 font-logo my-10">Instagram</h1> */}
             <input value={postInputs.username}
               onChange={(e) => setPostInputs({ ...postInputs, username: e.target.value })}
@@ -55,10 +55,10 @@ export const Auth2 = () => {
             Get the app
             <div className="grid grid-flow-col justify-center">
                 <div className="flex h-8 m-3">
-                    <img src="./pics/apple.png" alt="" />
+                    <img src="/pics/apple.png" alt="" />
                 </div>
                 <div className="flex h-10 m-3">
-                    <img src="./pics/google.png" alt="" />
+                    <img src="/pics/google.png" alt="" />
                 </div>
             </div>
         </div>
