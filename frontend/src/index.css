@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this for the Instagram logo font (Billabong) if you want to closely match the Instagram logo */
+@font-face {
+  font-family: 'Billabong';
+  src: url('https://www.cufonfonts.com/download/font/billabong') format('truetype');
+}
+
+.font-logo {
+  font-family: 'Billabong', cursive;
+}
